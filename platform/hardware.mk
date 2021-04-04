@@ -212,3 +212,7 @@ PRODUCT_PACKAGES += \
 ### XPERIAPARTS
 PRODUCT_PACKAGES += \
     XperiaParts
+
+### CAMERABUTTON
+PRODUCT_PACKAGES += \
+    CameraButton
