@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
 
 ### MEDIA
 PRODUCT_COPY_FILES += \
-    $(PLATFORM_PATH)/config/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
+    $(PLATFORM_PATH)/config/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    $(PLATFORM_PATH)/config/media/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml
 
 ### MSM_IRQ_BALANCER
 PRODUCT_COPY_FILES += \
