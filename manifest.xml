@@ -2,22 +2,22 @@
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
-        <version>5.0</version>
+        <version>4.0</version>
         <interface>
             <name>IDevicesFactory</name>
             <instance>default</instance>
         </interface>
-        <fqname>@5.0::IDevicesFactory/default</fqname>
+        <fqname>@4.0::IDevicesFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.audio.effect</name>
         <transport>hwbinder</transport>
-        <version>5.0</version>
+        <version>4.0</version>
         <interface>
             <name>IEffectsFactory</name>
             <instance>default</instance>
         </interface>
-        <fqname>@5.0::IEffectsFactory/default</fqname>
+        <fqname>@4.0::IEffectsFactory/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
@@ -652,18 +652,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::ISomcThermalEngineWrapper/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.semc.system.idd</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IIdd</name>
-            <instance>default</instance>
-            <instance>logreader</instance>
-        </interface>
-        <fqname>@1.0::IIdd/default</fqname>
-        <fqname>@1.0::IIdd/logreader</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.somc.hardware.camera.provider</name>
